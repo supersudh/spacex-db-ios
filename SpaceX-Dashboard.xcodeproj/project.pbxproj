@@ -13,6 +13,12 @@
 		813AA3DA26B7A1F300041222 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813AA3D826B7A1F300041222 /* Main.storyboard */; };
 		813AA3DC26B7A1F400041222 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 813AA3DB26B7A1F400041222 /* Assets.xcassets */; };
 		813AA3DF26B7A1F400041222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813AA3DD26B7A1F400041222 /* LaunchScreen.storyboard */; };
+		813AA3E726B7B08700041222 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813AA3E626B7B08700041222 /* SignupViewController.swift */; };
+		813AA3ED26B7B87C00041222 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813AA3EC26B7B87B00041222 /* Model.swift */; };
+		813AA3F126B7B8B800041222 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813AA3F026B7B8B800041222 /* ApiService.swift */; };
+		813AA3F426B7B9BD00041222 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813AA3F326B7B9BD00041222 /* MovieViewModel.swift */; };
+		813AA3F626B7BC6500041222 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813AA3F526B7BC6500041222 /* MovieTableViewCell.swift */; };
+		813AA3FA26B7C08C00041222 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813AA3F926B7C08C00041222 /* MainPageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		813AA3DB26B7A1F400041222 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		813AA3DE26B7A1F400041222 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		813AA3E026B7A1F400041222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		813AA3E626B7B08700041222 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		813AA3EC26B7B87B00041222 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		813AA3F026B7B8B800041222 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		813AA3F326B7B9BD00041222 /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
+		813AA3F526B7BC6500041222 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		813AA3F926B7C08C00041222 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,9 @@
 		813AA3D126B7A1F300041222 /* SpaceX-Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				813AA3F226B7B9AC00041222 /* ViewModel */,
+				813AA3EF26B7B8A700041222 /* Networking */,
+				813AA3EE26B7B89C00041222 /* Model */,
 				813AA3D226B7A1F300041222 /* AppDelegate.swift */,
 				813AA3D426B7A1F300041222 /* SceneDelegate.swift */,
 				813AA3D626B7A1F300041222 /* ViewController.swift */,
@@ -63,8 +78,35 @@
 				813AA3DB26B7A1F400041222 /* Assets.xcassets */,
 				813AA3DD26B7A1F400041222 /* LaunchScreen.storyboard */,
 				813AA3E026B7A1F400041222 /* Info.plist */,
+				813AA3E626B7B08700041222 /* SignupViewController.swift */,
+				813AA3F526B7BC6500041222 /* MovieTableViewCell.swift */,
+				813AA3F926B7C08C00041222 /* MainPageViewController.swift */,
 			);
 			path = "SpaceX-Dashboard";
+			sourceTree = "<group>";
+		};
+		813AA3EE26B7B89C00041222 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				813AA3EC26B7B87B00041222 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		813AA3EF26B7B8A700041222 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				813AA3F026B7B8B800041222 /* ApiService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		813AA3F226B7B9AC00041222 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				813AA3F326B7B9BD00041222 /* MovieViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +180,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				813AA3D726B7A1F300041222 /* ViewController.swift in Sources */,
+				813AA3F626B7BC6500041222 /* MovieTableViewCell.swift in Sources */,
 				813AA3D326B7A1F300041222 /* AppDelegate.swift in Sources */,
+				813AA3F426B7B9BD00041222 /* MovieViewModel.swift in Sources */,
+				813AA3ED26B7B87C00041222 /* Model.swift in Sources */,
+				813AA3E726B7B08700041222 /* SignupViewController.swift in Sources */,
+				813AA3F126B7B8B800041222 /* ApiService.swift in Sources */,
+				813AA3FA26B7C08C00041222 /* MainPageViewController.swift in Sources */,
 				813AA3D526B7A1F300041222 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
