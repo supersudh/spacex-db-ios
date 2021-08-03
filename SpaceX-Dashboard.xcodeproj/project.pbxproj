@@ -19,6 +19,14 @@
 		813AA3F426B7B9BD00041222 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813AA3F326B7B9BD00041222 /* MovieViewModel.swift */; };
 		813AA3F626B7BC6500041222 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813AA3F526B7BC6500041222 /* MovieTableViewCell.swift */; };
 		813AA3FA26B7C08C00041222 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813AA3F926B7C08C00041222 /* MainPageViewController.swift */; };
+		8178B80126B7F952002249D8 /* KYEmbedDrawerControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8178B7FD26B7F952002249D8 /* KYEmbedDrawerControllerSegue.swift */; };
+		8178B80226B7F952002249D8 /* KYDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8178B7FE26B7F952002249D8 /* KYDrawerController.swift */; };
+		8178B80326B7F952002249D8 /* KYEmbedMainControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8178B7FF26B7F952002249D8 /* KYEmbedMainControllerSegue.swift */; };
+		8178B80C26B8012D002249D8 /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8178B80B26B8012D002249D8 /* SideMenuController.swift */; };
+		8178B81226B80186002249D8 /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8178B81126B80186002249D8 /* MenuItemCell.swift */; };
+		8178B81626B8037A002249D8 /* MenuButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8178B81526B8037A002249D8 /* MenuButtonCell.swift */; };
+		8178B81A26B80A3B002249D8 /* AppUserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8178B81926B80A3B002249D8 /* AppUserDefault.swift */; };
+		8178B81F26B80B21002249D8 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8178B81D26B80B21002249D8 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +44,17 @@
 		813AA3F326B7B9BD00041222 /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
 		813AA3F526B7BC6500041222 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		813AA3F926B7C08C00041222 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		8178B7FB26B7F952002249D8 /* KYDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYDrawerController.h; sourceTree = "<group>"; };
+		8178B7FD26B7F952002249D8 /* KYEmbedDrawerControllerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYEmbedDrawerControllerSegue.swift; sourceTree = "<group>"; };
+		8178B7FE26B7F952002249D8 /* KYDrawerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYDrawerController.swift; sourceTree = "<group>"; };
+		8178B7FF26B7F952002249D8 /* KYEmbedMainControllerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYEmbedMainControllerSegue.swift; sourceTree = "<group>"; };
+		8178B80026B7F952002249D8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8178B80B26B8012D002249D8 /* SideMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuController.swift; sourceTree = "<group>"; };
+		8178B81126B80186002249D8 /* MenuItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
+		8178B81526B8037A002249D8 /* MenuButtonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButtonCell.swift; sourceTree = "<group>"; };
+		8178B81926B80A3B002249D8 /* AppUserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUserDefault.swift; sourceTree = "<group>"; };
+		8178B81D26B80B21002249D8 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		8178B81E26B80B21002249D8 /* SwiftyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyJSON.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +87,10 @@
 		813AA3D126B7A1F300041222 /* SpaceX-Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				8178B81826B80A10002249D8 /* Helper */,
+				8178B80F26B80161002249D8 /* View */,
+				8178B80A26B8010C002249D8 /* Controller */,
+				8178B7F926B7F903002249D8 /* Library */,
 				813AA3F226B7B9AC00041222 /* ViewModel */,
 				813AA3EF26B7B8A700041222 /* Networking */,
 				813AA3EE26B7B89C00041222 /* Model */,
@@ -107,6 +130,77 @@
 				813AA3F326B7B9BD00041222 /* MovieViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8178B7F926B7F903002249D8 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				8178B81C26B80B21002249D8 /* SwiftyJSON */,
+				8178B7FA26B7F952002249D8 /* KYDrawerController */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		8178B7FA26B7F952002249D8 /* KYDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				8178B7FB26B7F952002249D8 /* KYDrawerController.h */,
+				8178B7FC26B7F952002249D8 /* Classes */,
+				8178B80026B7F952002249D8 /* Info.plist */,
+			);
+			path = KYDrawerController;
+			sourceTree = "<group>";
+		};
+		8178B7FC26B7F952002249D8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8178B7FD26B7F952002249D8 /* KYEmbedDrawerControllerSegue.swift */,
+				8178B7FE26B7F952002249D8 /* KYDrawerController.swift */,
+				8178B7FF26B7F952002249D8 /* KYEmbedMainControllerSegue.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8178B80A26B8010C002249D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8178B80B26B8012D002249D8 /* SideMenuController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8178B80F26B80161002249D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8178B81026B80168002249D8 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8178B81026B80168002249D8 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8178B81126B80186002249D8 /* MenuItemCell.swift */,
+				8178B81526B8037A002249D8 /* MenuButtonCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8178B81826B80A10002249D8 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				8178B81926B80A3B002249D8 /* AppUserDefault.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		8178B81C26B80B21002249D8 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				8178B81D26B80B21002249D8 /* SwiftyJSON.swift */,
+				8178B81E26B80B21002249D8 /* SwiftyJSON.h */,
+			);
+			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,13 +273,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8178B80126B7F952002249D8 /* KYEmbedDrawerControllerSegue.swift in Sources */,
 				813AA3D726B7A1F300041222 /* ViewController.swift in Sources */,
 				813AA3F626B7BC6500041222 /* MovieTableViewCell.swift in Sources */,
+				8178B80C26B8012D002249D8 /* SideMenuController.swift in Sources */,
+				8178B81A26B80A3B002249D8 /* AppUserDefault.swift in Sources */,
 				813AA3D326B7A1F300041222 /* AppDelegate.swift in Sources */,
 				813AA3F426B7B9BD00041222 /* MovieViewModel.swift in Sources */,
 				813AA3ED26B7B87C00041222 /* Model.swift in Sources */,
 				813AA3E726B7B08700041222 /* SignupViewController.swift in Sources */,
+				8178B80226B7F952002249D8 /* KYDrawerController.swift in Sources */,
+				8178B80326B7F952002249D8 /* KYEmbedMainControllerSegue.swift in Sources */,
 				813AA3F126B7B8B800041222 /* ApiService.swift in Sources */,
+				8178B81626B8037A002249D8 /* MenuButtonCell.swift in Sources */,
+				8178B81226B80186002249D8 /* MenuItemCell.swift in Sources */,
+				8178B81F26B80B21002249D8 /* SwiftyJSON.swift in Sources */,
 				813AA3FA26B7C08C00041222 /* MainPageViewController.swift in Sources */,
 				813AA3D526B7A1F300041222 /* SceneDelegate.swift in Sources */,
 			);
@@ -264,7 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -319,7 +421,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -334,8 +436,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 333978HD8N;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "SpaceX-Dashboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -343,6 +445,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.georgian.sudharsanravikumar.SpaceX-Dashboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -353,8 +456,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 333978HD8N;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "SpaceX-Dashboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -362,6 +465,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ca.georgian.sudharsanravikumar.SpaceX-Dashboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
